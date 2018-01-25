@@ -27,7 +27,7 @@ function currentLine(deliArray){
   } 
   else{
     var str = "The line is currently: " 
-    for(let i = 0; i < deliArray.length - 1; i++){
+    for(let i = 0; i < deliArray.length; i++){
       if(i < deliArray.length - 1){
       str = str + `${i + 1}. ${deliArray[i]}, `
       } 
